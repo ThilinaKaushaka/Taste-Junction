@@ -113,7 +113,7 @@
     color:rgb(248, 213, 170);
     box-shadow: 0 1px 1px 0 rgba(247, 216, 78, 0.144),0 5px 10px 0 rgba(255, 242, 124, 0.19);
 }
-.btn-search:hover,.txt-search:hover{
+.btn-search:hover,.txt-search:hover,.btn-place-Order:hover{
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     
@@ -170,4 +170,58 @@
 
 .social-icon{
     margin-left: 1%;
+}
+
+.pos-Item{
+    background-color: rgba(54, 55, 56, 0.507);
+    margin-left: 15px;
+    margin-right: 15px;
+
+    
+    
+}
+.itemx:hover{
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    
+    box-shadow: 0 6px 6px 0 rgba(247, 202, 0, 0.37),08px 10px 50px 0 rgba(253, 228, 0, 0.411);
+
+}
+.pos{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    background-color: rgb(46, 45, 45);
+    bottom: 0;
+}
+
+.panal-cus{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-place-Order{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(65, 105, 225, 0);
+    border-color:rgba(255, 217, 0, 0.527) ;
+    color:rgb(248, 213, 170);
+    box-shadow: 0 1px 1px 0 rgba(247, 216, 78, 0.144),0 5px 10px 0 rgba(255, 242, 124, 0.19);
+}
+
+.itmQty,.itmPrice,.itmDiscount{
+    width: 80px;
+    background-color:rgb(41, 43, 43);
+    color: whitesmoke;
+    border-radius: 5px;
+    border:none
+}
+
+.itemEXEDate{
+    background-color:rgb(41, 43, 43);
+    width: 150px;
+    background-color:rgb(41, 43, 43);
+    color: whitesmoke;
+    border-radius: 5px;
+    border:none
 }
