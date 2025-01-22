@@ -651,7 +651,7 @@ let menu = {
 
 
 function printAllMenu(Lc) {
-
+    
     if (!Lc) {
         document.getElementById("pos").style="display:block";
     document.getElementById("txtSearch").style="display:block";
@@ -1042,7 +1042,7 @@ function getBody(item) {
             <p class="price"> <br><span class="fw-bold">Price (RS) : </span>${item.price} <br>
 
 
-              <span class="fw-bold">Avalable&nbsp;&nbsp;- </span>${item.avalable}<br>
+              <span class="fw-bold">Avalable&nbsp;&nbsp;: </span>${item.avalable}<br>
               ${item.ing}<br>
               <span class="ex-date">Ex Date : ${item.exeDate.toLocaleDateString('en-CA')} </span>
 
@@ -1065,16 +1065,17 @@ function getBody(item) {
 
 function search(){
     let listArray=null;
+    
     listArray=searchList(document.getElementById("txtSearch").value);
-
-
-
+    
+    
 
     let body="";
 
     listArray.forEach(item=>{
         body+=getBody(item);
     });
+
 
 
     document.getElementById("content").innerHTML =`<br><br><br><br> <div class="row beverages-row" style="margin-left: 2%; margin-right: 2%; " id="beverages-row">
@@ -1187,6 +1188,13 @@ function placeOrder(){
                 "totalPrice":getTotal()
             }
         );
+
+
+        Swal.fire({
+            title: "Order Placed",
+            icon: "success",
+            draggable: true
+          });
     
         document.getElementById("txtTPNO").value="";
         document.getElementById("txtName").value="";
@@ -1196,6 +1204,29 @@ function placeOrder(){
         document.getElementById("itmTotal").innerHTML="";
         document.getElementById("itmDiscount").innerHTML="";
         document.getElementById("itmCode").innerHTML="";
+    }else{
+        if (document.getElementById("txtTPNO").value==""&&document.getElementById("txtName").value=="") {
+            Swal.fire({
+                icon: "error",
+                title: "<b>Oops...</b> <br><br>Please Enter<br> Name and Phone Number",
+                text: "",
+                
+              });
+        }else if(document.getElementById("txtTPNO").value==""){
+            Swal.fire({
+                icon: "error",
+                title: "<b>Oops...</b> <br><br>Please Enter<br>Phone Number",
+                text: "",
+                
+              }); 
+        }else if(document.getElementById("txtName").value==""){
+            Swal.fire({
+                icon: "error",
+                title: "<b>Oops...</b> <br><br>Please Enter<br>Name",
+                text: "",
+                
+              }); 
+        }
     }
 
     
