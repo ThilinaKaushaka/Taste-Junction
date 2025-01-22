@@ -1,6 +1,4 @@
 
-
-
 let menu = {
 
     "catagory": [
@@ -14,8 +12,8 @@ let menu = {
                             "name": "Classic Burger (Large)",
                             "code": "B1001",
                             "price": 750.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Sauce, Lettuce, Tomatoes, Pickles , Onions, 200g Beef",
                             "src": `media/item photo/Burger/classic.jpg`
@@ -26,8 +24,8 @@ let menu = {
                             "name": "Classic Burger (Regular)",
                             "code": "B1002",
                             "price": 1500.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 15,
                             "ing": "Sauce, Lettuce, Tomatoes, Pickles , Onions, 400g Beef",
                             "src": `media/item photo/Burger/classic.jpg`
@@ -45,8 +43,8 @@ let menu = {
                             "name": "Turkey Burger",
                             "code": "B1003",
                             "price": 1600.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Pesto Sauce, Aragula, Tomatoes, 200g Beef, Mushrooms",
                             "src": `media/item photo/Burger/turky.jpg`
@@ -59,8 +57,8 @@ let menu = {
                             "name": "Chicken Burger (Large)",
                             "code": "B1004",
                             "price": 1400.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Chicken Sauce, Lettuce, Pickles, Coleslaw, Crispy Chicken",
                             "src": `media/item photo/Burger/chicken.jpg`
@@ -68,8 +66,8 @@ let menu = {
                             "name": "Chicken Burger (Regular)",
                             "code": "B1005",
                             "price": 800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 20,
                             "ing": "Chicken Sauce, Lettuce, Pickles, Coleslaw, Crispy Chicken",
                             "src": `media/item photo/Burger/chicken.jpg`
@@ -82,8 +80,8 @@ let menu = {
                             "name": "Cheese Burger (Large)",
                             "code": "B1006",
                             "price": 1000.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Lettuce, Tomatoes, Onions, Jalapenos, Mozzarella Cheese",
                             "src": `media/item photo/Burger/cheese.jpg`
@@ -91,8 +89,8 @@ let menu = {
                             "name": "Cheese Burger (Regular)",
                             "code": "B1007",
                             "price": 600.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Lettuce, Tomatoes, Onions, Jalapenos, Mozzarella Cheese",
                             "src": `media/item photo/Burger/cheese.jpg`
@@ -105,8 +103,8 @@ let menu = {
                             "name": "Bacon Burger",
                             "code": "B1008",
                             "price": 650.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 15,
                             "ing": "Lettuce, Tomatoes, Onions, Pickles, Bacon, 200g Beef",
                             "src": `media/item photo/Burger/bacon.jpg`
@@ -119,8 +117,8 @@ let menu = {
                             "name": "Shawarma Burger",
                             "code": "B1009",
                             "price": 800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Dynamite Sauce, Lettuce, Jalapenos, Banana Peppers",
                             "src": `media/item photo/Burger/shawarma.jpg`
@@ -133,8 +131,8 @@ let menu = {
                             "name": "Olive Burger",
                             "code": "B1010",
                             "price": 1800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Olive oil, Tomatoes, Pickles, 200g Angus,Cheese Patty",
                             "src": `media/item photo/Burger/oliver.jpg`
@@ -147,8 +145,8 @@ let menu = {
                             "name": "Double-Cheese Burger",
                             "code": "B1012",
                             "price": 1250.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 20,
                             "ing": "Pesto Sauce, Aragula, Tomatoes, Chicken, Swiss Cheese",
                             "src": `media/item photo/Burger/double cheese.jpg`
@@ -161,8 +159,8 @@ let menu = {
                             "name": "Crispy Chicken Burger (Regular)",
                             "code": "B1013",
                             "price": 1200.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Pesto Sauce, Lettuce, Tomatoes, Arugula, Crispy chicken",
                             "src": `media/item photo/Burger/cris chicken.jpg`
@@ -170,8 +168,8 @@ let menu = {
                             "name": "Crispy Chicken Burger (Large)",
                             "code": "B1014",
                             "price": 1600.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 10,
                             "ing": "Pesto Sauce, Lettuce, Tomatoes, Arugula, Crispy chicken",
                             "src": `media/item photo/Burger/cris chicken.jpg`
@@ -184,8 +182,8 @@ let menu = {
                             "name": "Paneer Burger",
                             "code": "B1015",
                             "price": 900.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Tomatoes, Grilled Chicken, Swiss Cheese, Onions",
                             "src": `media/item photo/Burger/paneer.jpg`
@@ -203,8 +201,8 @@ let menu = {
                             "name": "Crispy Chicken Submarine (Large)",
                             "code": "B1016",
                             "price": 2000.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Crispy Chicken, Mayo cucumber,Tomato, Sause, Onion",
                             "src": `media/item photo/submarien/Cris.jpg`
@@ -212,8 +210,8 @@ let menu = {
                             "name": "Crispy Chicken Submarine (Regular)",
                             "code": "B1017",
                             "price": 1500.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Crispy Chicken, Mayo cucumber,Tomato, Sause, Onion",
                             "src": `media/item photo/submarien/Cris.jpg`
@@ -226,8 +224,8 @@ let menu = {
                             "name": "Chicken Submarine (Large)",
                             "code": "B1018",
                             "price": 1800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 3,
                             "ing": "Chicken,Cheese,Tomato, Sause, Onion",
                             "src": `media/item photo/submarien/Chichen.jpg`
@@ -235,8 +233,8 @@ let menu = {
                             "name": "Chicken Submarine (Regular)",
                             "code": "B1019",
                             "price": 1400.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Chicken,Cheese,Tomato, Sause, Onion",
                             "src": `media/item photo/submarien/Chichen.jpg`
@@ -249,8 +247,8 @@ let menu = {
                             "name": "Grinder Submarine",
                             "code": "B1020",
                             "price": 2300.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Grilled, Onion, Fried with Sause",
                             "src": `media/item photo/submarien/Gi.jpg`
@@ -263,8 +261,8 @@ let menu = {
                             "name": "Cheese Submarine",
                             "code": "B1021",
                             "price": 2200.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Cheese, Chicken, Onion, Buffalo sause",
                             "src": `media/item photo/submarien/Cheese.jpg`
@@ -277,8 +275,8 @@ let menu = {
                             "name": "Double Cheese n Chicken Submarine",
                             "code": "B1022",
                             "price": 1900.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 16,
                             "ing": "Cheese, Chicken, Onion, Sause",
                             "src": `media/item photo/submarien/Double cheese.jpg`
@@ -291,8 +289,8 @@ let menu = {
                             "name": "Special Horgie Submarine",
                             "code": "B1023",
                             "price": 2800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Cheese, Chicken, Onion, Tomato, French fries, Pepsi",
                             "src": `media/item photo/submarien/Special how.jpg`
@@ -305,8 +303,8 @@ let menu = {
                             "name": "MOS Special Submarine",
                             "code": "B1024",
                             "price": 3000.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Lava Cheese,Crispy Chicken, Onion, French fries, Pepsi",
                             "src": `media/item photo/submarien/Mos.jpg`
@@ -324,8 +322,8 @@ let menu = {
                             "name": "Steak Fries (Large)",
                             "code": "B1025",
                             "price": 1200.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/steak.jpg`
@@ -333,8 +331,8 @@ let menu = {
                             "name": "Steak Fries (Medium)",
                             "code": "B1026",
                             "price": 600.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/steak.jpg`
@@ -347,8 +345,8 @@ let menu = {
                             "name": "French Fries (Large)",
                             "code": "B1027",
                             "price": 800.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/french.jpg`
@@ -356,8 +354,8 @@ let menu = {
                             "name": "French Fries (Medium)",
                             "code": "B1028",
                             "price": 650.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/french.jpg`
@@ -365,8 +363,8 @@ let menu = {
                             "name": "French Fries (Small)",
                             "code": "B1029",
                             "price": 450.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/french.jpg`
@@ -379,8 +377,8 @@ let menu = {
                             "name": "Sweet Potato Fries (Large)",
                             "code": "B1030",
                             "price": 600.00,
-                            "exeDate":new Date('2025-01-31'),
-                            "avalable":50,
+                            "exeDate": new Date('2025-01-31'),
+                            "avalable": 50,
                             "discount": 0,
                             "ing": "Potato, Salt, Chilli powder",
                             "src": `media/item photo/french/sweet.jpg`
@@ -398,8 +396,8 @@ let menu = {
                             "name": "Chicken n Cheese Pasta",
                             "code": "B1031",
                             "price": 1600.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 15,
                             "ing": "Cheese, Chicken ,Olive oil, Milk, Garlic, Spinach",
                             "src": `media/item photo/pasta/chicken cheese.jpeg`
@@ -412,8 +410,8 @@ let menu = {
                             "name": "Chicken Penne Pasta",
                             "code": "B1032",
                             "price": 1700.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Pasta, Bacon, Chicken breasts, Garlic powder, Heavy",
                             "src": `media/item photo/pasta/chicken penne.jpeg`
@@ -426,8 +424,8 @@ let menu = {
                             "name": "Ground Turkey Pasta Bake",
                             "code": "B1033",
                             "price": 2900.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 10,
                             "ing": "Maple syrup, Basil, Oregano, Pepper, Ground turkey",
                             "src": `media/item photo/pasta/ground.jpeg`
@@ -440,8 +438,8 @@ let menu = {
                             "name": "Creamy Shrimp Pasta",
                             "code": "B1034",
                             "price": 2000.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Olive oil, Garlic, Minced, White wine, Basil",
                             "src": `media/item photo/pasta/creamy.jpeg`
@@ -454,8 +452,8 @@ let menu = {
                             "name": "Lemon Butter Pasta",
                             "code": "B1035",
                             "price": 1950.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Cheese, Butter, Garlic, Red pepper, Parsley",
                             "src": `media/item photo/pasta/lemon.jpeg`
@@ -468,8 +466,8 @@ let menu = {
                             "name": "Tagliatelle Pasta",
                             "code": "B1036",
                             "price": 2400.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 1,
                             "ing": "Olive oil, White wine, Black pepper, Cheese, Chicken",
                             "src": `media/item photo/pasta/tagliatelle.jpeg`
@@ -482,8 +480,8 @@ let menu = {
                             "name": "Baked Ravioli",
                             "code": "B1037",
                             "price": 2000.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 1,
                             "ing": "Ground beef, Cheese ravioli, Mozzarella cheese, Sauce",
                             "src": `media/item photo/pasta/baked ravioli.jpeg`
@@ -501,8 +499,8 @@ let menu = {
                             "name": "Fried Chicken (Small)",
                             "code": "B1038",
                             "price": 1200.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Garlic salt, Paprika, Black pepper, Safflower oil",
                             "src": `media/item photo/chichen/fried.jpg`
@@ -510,8 +508,8 @@ let menu = {
                             "name": "Fried Chicken (Regular)",
                             "code": "B1039",
                             "price": 2300.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 10,
                             "ing": "Garlic salt, Paprika, Black pepper, Safflower oil",
                             "src": `media/item photo/chichen/fried.jpg`
@@ -519,8 +517,8 @@ let menu = {
                             "name": "Fried Chicken (Large)",
                             "code": "B1040",
                             "price": 3100.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 5,
                             "ing": "Garlic salt, Paprika, Black pepper, Safflower oil",
                             "src": `media/item photo/chichen/fried.jpg`
@@ -533,8 +531,8 @@ let menu = {
                             "name": "Hot Wings (Large)",
                             "code": "B1041",
                             "price": 2400.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Garlic salt, Paprika, Black pepper, Safflower oil",
                             "src": `media/item photo/chichen/wings.jpg`
@@ -547,8 +545,8 @@ let menu = {
                             "name": "Devilled Chicken (Large)",
                             "code": "B1042",
                             "price": 900.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Garlic salt, Onion, Tomato, Salt",
                             "src": `media/item photo/chichen/devilled.jpg`
@@ -561,8 +559,8 @@ let menu = {
                             "name": "BBQ Chicken (Regular) ",
                             "code": "B1043",
                             "price": 2100.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "Garlic salt, Onion, Tomato, Salt",
                             "src": `media/item photo/chichen/bbq.jpg`
@@ -580,8 +578,8 @@ let menu = {
                             "name": "Pepsi",
                             "code": "B1044",
                             "price": 990.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 5,
                             "ing": "330ml",
                             "src": `media/item photo/Beverages/coce pepsi.jpg`
@@ -594,8 +592,8 @@ let menu = {
                             "name": "Coca-Cola",
                             "code": "B1045",
                             "price": 1230.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 0,
                             "ing": "330ml",
                             "src": `media/item photo/Beverages/coce pepsi.jpg`
@@ -608,8 +606,8 @@ let menu = {
                             "name": "Sprite",
                             "code": "B1046",
                             "price": 1500.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 3,
                             "ing": "330ml",
                             "src": `media/item photo/Beverages/sprite.jpg`
@@ -622,8 +620,8 @@ let menu = {
                             "name": "Mirinda",
                             "code": "B1047",
                             "price": 850.00,
-                            "avalable":50,
-                            "exeDate":new Date('2025-01-31'),
+                            "avalable": 50,
+                            "exeDate": new Date('2025-01-31'),
                             "discount": 7,
                             "ing": "330ml",
                             "src": `media/item photo/Beverages/merinda.jpg`
@@ -643,7 +641,7 @@ let menu = {
 
 
 
-
+printAllMenu();
 
 
 
@@ -651,17 +649,17 @@ let menu = {
 
 
 function printAllMenu(Lc) {
-    
-    if (!Lc) {
-        document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
+
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
 
-    
+
 
     let body = "";
 
@@ -754,14 +752,14 @@ function printAllMenu(Lc) {
 
 
 function printBurgers(Lc) {
-    if(!Lc){
+    if (!Lc) {
 
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
 
 
@@ -784,16 +782,16 @@ function printBurgers(Lc) {
 }
 
 function printSubmarines(Lc) {
-    if(!Lc){
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
-    let body="";
-    body=   `<div class="submarines" data-aos="fade-up"
+    let body = "";
+    body = `<div class="submarines" data-aos="fade-up"
      data-aos-duration="3000">
                 <h1 class="burger fw-bold text-white">
                     <center>Submarines</center>
@@ -811,17 +809,17 @@ function printSubmarines(Lc) {
 
 
 
-function printFries(Lc){
-    if(!Lc){
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+function printFries(Lc) {
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
-    let body="";
-    body=   `
+    let body = "";
+    body = `
                 <div class="fries" data-aos="fade-up"
      data-aos-duration="3000">
                     <h1 class="burger fw-bold text-white">
@@ -841,17 +839,17 @@ function printFries(Lc){
 }
 
 
-function printPasta(Lc){
-    if(!Lc){
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+function printPasta(Lc) {
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
-    let body="";
-    body=   `
+    let body = "";
+    body = `
                 <div class="pasta" data-aos="fade-up"
      data-aos-duration="3000">
                     <h1 class="burger fw-bold text-white">
@@ -869,17 +867,17 @@ function printPasta(Lc){
 }
 
 
-function printChicken(Lc){
-    if(!Lc){
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+function printChicken(Lc) {
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
-    let body="";
-    body=   `
+    let body = "";
+    body = `
                 <div class="chicken" data-aos="fade-up"
      data-aos-duration="3000">
                     <h1 class="chicken fw-bold text-white">
@@ -898,17 +896,17 @@ function printChicken(Lc){
 }
 
 
-function printBeverages(Lc){
-    if(!Lc){
-    document.getElementById("pos").style="display:block";
-    document.getElementById("txtSearch").style="display:block";
-    document.getElementById("btnSear").style="display:block";
+function printBeverages(Lc) {
+    if (!Lc) {
+        document.getElementById("pos").style = "display:block";
+        document.getElementById("txtSearch").style = "display:block";
+        document.getElementById("btnSear").style = "display:block";
 
-    document.getElementById("management").style="display:none";
-    document.getElementById("content").innerHTML = "";
+        document.getElementById("management").style = "display:none";
+        document.getElementById("content").innerHTML = "";
     }
-    let body="";
-    body=   `
+    let body = "";
+    body = `
                 <div class="beverages" data-aos="fade-up"
      data-aos-duration="3000">
                     <h1 class="beverages fw-bold text-white">
@@ -1063,35 +1061,35 @@ function getBody(item) {
 }
 
 
-function search(){
-    let listArray=null;
-    
-    listArray=searchList(document.getElementById("txtSearch").value);
-    
-    
+function search() {
+    let listArray = null;
 
-    let body="";
+    listArray = searchList(document.getElementById("txtSearch").value);
 
-    listArray.forEach(item=>{
-        body+=getBody(item);
+
+
+    let body = "";
+
+    listArray.forEach(item => {
+        body += getBody(item);
     });
 
 
 
-    document.getElementById("content").innerHTML =`<br><br><br><br> <div class="row beverages-row" style="margin-left: 2%; margin-right: 2%; " id="beverages-row">
+    document.getElementById("content").innerHTML = `<br><br><br><br> <div class="row beverages-row" style="margin-left: 2%; margin-right: 2%; " id="beverages-row">
                         ${body}
                     </div>` ;
 
-    
+
 }
 
 
 function searchList(val) {
-    let list=[];
-    menu.catagory.forEach(items=>{
-        items.items.forEach(item=>{
-            item.item.forEach(item=>{
-                if(item.code.toLowerCase().includes(val.toLowerCase())||item.name.toLowerCase().includes(val.toLowerCase())){
+    let list = [];
+    menu.catagory.forEach(items => {
+        items.items.forEach(item => {
+            item.item.forEach(item => {
+                if (item.code.toLowerCase().includes(val.toLowerCase()) || item.name.toLowerCase().includes(val.toLowerCase())) {
                     list.push(item);
                 }
             });
@@ -1099,93 +1097,93 @@ function searchList(val) {
     });
 
     return list;
-    
+
 }
 
-printAllMenu();
 
-function total(code){
-    let item=null;
-    item=getItem(code);
-    
-    document.getElementById("itmName").innerHTML=item.name;
-    document.getElementById("itmTotal").innerHTML=item.discount>0?(item.price*code.value)-((item.price*code.value)*(item.discount/100)):item.price*code.value;
-    document.getElementById("itmDiscount").innerHTML=item.discount>0?((item.price*code.value)*(item.discount/100)) +` (${item.discount}%)`:"N/A";
-    document.getElementById("itmCode").innerHTML=item.code;
-    
-    
+
+function total(code) {
+    let item = null;
+    item = getItem(code);
+
+    document.getElementById("itmName").innerHTML = item.name;
+    document.getElementById("itmTotal").innerHTML = item.discount > 0 ? (item.price * code.value) - ((item.price * code.value) * (item.discount / 100)) : item.price * code.value;
+    document.getElementById("itmDiscount").innerHTML = item.discount > 0 ? ((item.price * code.value) * (item.discount / 100)) + ` (${item.discount}%)` : "N/A";
+    document.getElementById("itmCode").innerHTML = item.code;
+
+
 }
 
-function getItem(code){
-    let ob=null;
-    menu.catagory.forEach(catagory=>{
-        catagory.items.forEach(item=>{
-            item.item.forEach(item=>{
-                if(item.code===code.id){
-                    ob= item;
-                    
+function getItem(code) {
+    let ob = null;
+    menu.catagory.forEach(catagory => {
+        catagory.items.forEach(item => {
+            item.item.forEach(item => {
+                if (item.code === code.id) {
+                    ob = item;
+
                 }
-                
+
             });
         });
     });
 
     return ob;
-    
+
 }
 
 
-let orders=[];
+let orders = [];
 
 
-function addCart(code){
+function addCart(code) {
 
-    if (code.value>0) {
-        let ob=null;
-        ob=getItem(code);
-        orders.push([ob,document.getElementById(code.id).value,ob.price*document.getElementById(code.id).value]);
+    if (code.value > 0) {
+        let ob = null;
+        ob = getItem(code);
+        orders.push([ob, document.getElementById(code.id).value, ob.price * document.getElementById(code.id).value]);
         printTotal();
-        
-        
+
+
     }
-    
+
 }
 
-function xx(){
+function xx() {
     console.log(orderArray);
-    
+
 }
 
 
-function printTotal(){
-    document.getElementById("subTotal").innerHTML=getTotal();
+function printTotal() {
+    document.getElementById("subTotal").innerHTML = getTotal();
 }
 
-function getTotal(){
-    let total=0;
+function getTotal() {
+    let total = 0;
     orders.forEach(order => {
-        total+=order[2];
+        total += order[2];
     });
     return total;
 }
 
-let orderArray=[];
+let orderArray = [];
 
 
 
 
-let id=1000;
+let id = 1000;
 
-function placeOrder(){
-    
+function placeOrder() {
+
     if (valudNameNumberAndTotal()) {
         orderArray.push(
-            {   
-                "orderID":id++,
-                "customerTPNO":document.getElementById("txtTPNO").value,
-                "customerName":document.getElementById("txtName").value,
-                "items":orders,
-                "totalPrice":getTotal()
+            {
+                "orderID": id++,
+                "customerTPNO": document.getElementById("txtTPNO").value,
+                "customerName": document.getElementById("txtName").value,
+                "items": orders,
+                "totalPrice": getTotal()
             }
         );
 
@@ -1194,110 +1192,134 @@ function placeOrder(){
             title: "Order Placed",
             icon: "success",
             draggable: true
-          });
-    
-        document.getElementById("txtTPNO").value="";
-        document.getElementById("txtName").value="";
-        document.getElementById("subTotal").innerHTML="";
-    
-        document.getElementById("itmName").innerHTML="";
-        document.getElementById("itmTotal").innerHTML="";
-        document.getElementById("itmDiscount").innerHTML="";
-        document.getElementById("itmCode").innerHTML="";
-    }else{
-        if (document.getElementById("txtTPNO").value==""&&document.getElementById("txtName").value=="") {
+        });
+
+        document.getElementById("txtTPNO").value = "";
+        document.getElementById("txtName").value = "";
+        document.getElementById("subTotal").innerHTML = "";
+
+        document.getElementById("itmName").innerHTML = "";
+        document.getElementById("itmTotal").innerHTML = "";
+        document.getElementById("itmDiscount").innerHTML = "";
+        document.getElementById("itmCode").innerHTML = "";
+    } else {
+        if (document.getElementById("txtTPNO").value == "" && document.getElementById("txtName").value == "") {
             Swal.fire({
                 icon: "error",
                 title: "<b>Oops...</b> <br><br>Please Enter<br> Name and Phone Number",
                 text: "",
-                
-              });
-        }else if(document.getElementById("txtTPNO").value==""){
+
+            });
+            document.getElementById("txtTPNO").value = "";
+            document.getElementById("txtName").value = "";
+            document.getElementById("subTotal").innerHTML = "";
+
+            document.getElementById("itmName").innerHTML = "";
+            document.getElementById("itmTotal").innerHTML = "";
+            document.getElementById("itmDiscount").innerHTML = "";
+            document.getElementById("itmCode").innerHTML = "";
+        } else if (document.getElementById("txtTPNO").value == "") {
             Swal.fire({
                 icon: "error",
                 title: "<b>Oops...</b> <br><br>Please Enter<br>Phone Number",
                 text: "",
-                
-              }); 
-        }else if(document.getElementById("txtName").value==""){
+
+            });
+            document.getElementById("txtTPNO").value = "";
+            document.getElementById("txtName").value = "";
+            document.getElementById("subTotal").innerHTML = "";
+
+            document.getElementById("itmName").innerHTML = "";
+            document.getElementById("itmTotal").innerHTML = "";
+            document.getElementById("itmDiscount").innerHTML = "";
+            document.getElementById("itmCode").innerHTML = "";
+        } else if (document.getElementById("txtName").value == "") {
             Swal.fire({
                 icon: "error",
                 title: "<b>Oops...</b> <br><br>Please Enter<br>Name",
                 text: "",
-                
-              }); 
+
+            });
+            document.getElementById("txtTPNO").value = "";
+            document.getElementById("txtName").value = "";
+            document.getElementById("subTotal").innerHTML = "";
+
+            document.getElementById("itmName").innerHTML = "";
+            document.getElementById("itmTotal").innerHTML = "";
+            document.getElementById("itmDiscount").innerHTML = "";
+            document.getElementById("itmCode").innerHTML = "";
         }
     }
 
-    
-    orders.forEach(or=>{
-        
-        menu.catagory.forEach(catagory=>{
-            catagory.items.forEach(item=>{
-                item.item.forEach(itemx=>{
-                    if(or[0].code==itemx.code){
-                        itemx.avalable-=or[1];
+
+    orders.forEach(or => {
+
+        menu.catagory.forEach(catagory => {
+            catagory.items.forEach(item => {
+                item.item.forEach(itemx => {
+                    if (or[0].code == itemx.code) {
+                        itemx.avalable -= or[1];
                         console.log(itemx.avalable);
-                        
-                        
+
+
                     }
-                    
+
                 });
             });
         });
-    
-});
+
+    });
 
 
-    
-    orders=[];
+
+    orders = [];
     printAllMenu();
-    
+
 }
 
 
-function valudNameNumberAndTotal(){
-    
-    return document.getElementById("txtTPNO").value.charAt(0)=="0" && document.getElementById("txtTPNO").value.length==10 && document.getElementById("txtName").value!="" && getTotal()>>0 ;
+function valudNameNumberAndTotal() {
+
+    return document.getElementById("txtTPNO").value.charAt(0) == "0" && document.getElementById("txtTPNO").value.length == 10 && document.getElementById("txtName").value != "" && getTotal() >> 0;
 }
 
 
-function cancel(){
-    
-    
+function cancel() {
 
-    document.getElementById("txtTPNO").value="";
-    document.getElementById("txtName").value="";
-    document.getElementById("subTotal").innerHTML="";
-    
-    document.getElementById("itmName").innerHTML="";
-    document.getElementById("itmTotal").innerHTML="";
-    document.getElementById("itmDiscount").innerHTML="";
-    document.getElementById("itmCode").innerHTML="";
-    orders=[];
 
-    
+
+    document.getElementById("txtTPNO").value = "";
+    document.getElementById("txtName").value = "";
+    document.getElementById("subTotal").innerHTML = "";
+
+    document.getElementById("itmName").innerHTML = "";
+    document.getElementById("itmTotal").innerHTML = "";
+    document.getElementById("itmDiscount").innerHTML = "";
+    document.getElementById("itmCode").innerHTML = "";
+    orders = [];
+
+
 }
 
 
-function printOrder(){
-    document.getElementById("orderTable").innerHTML=getOrderBody();
+function printOrder() {
+    document.getElementById("orderTable").innerHTML = getOrderBody();
 }
 
 
 
-function getOrderBody(){
-    
-    document.getElementById("pos").style="display:none";
-    document.getElementById("txtSearch").style="display:none";
-    document.getElementById("btnSear").style="display:none";
+function getOrderBody() {
 
-    document.getElementById("management").style="display:none";
-    
+    document.getElementById("pos").style = "display:none";
+    document.getElementById("txtSearch").style = "display:none";
+    document.getElementById("btnSear").style = "display:none";
 
-    let body="";
-    orderArray.forEach(order=>{
-        body+=  `
+    document.getElementById("management").style = "display:none";
+
+
+    let body = "";
+    orderArray.forEach(order => {
+        body += `
             <tr>
             <td>${order.orderID}</td>
             <td>${order.customerTPNO}</td>
@@ -1317,7 +1339,7 @@ function getOrderBody(){
             <td>${order.totalPrice}</td>
         `;
     });
-    document.getElementById("content").innerHTML=`
+    document.getElementById("content").innerHTML = `
     <br><br><br><br>
 
         <div class="container" >
@@ -1339,23 +1361,23 @@ function getOrderBody(){
     </table>
   </div>
     
-   ` 
-    
-    
-   
+   `
+
+
+
 }
 
 
 
 
-function getOrderItem(order){
-    let body="";
-    order.forEach(item=>{
-        body+=`
+function getOrderItem(order) {
+    let body = "";
+    order.forEach(item => {
+        body += `
               <tr>
                 <td>${item[0].code}</td>
                 <td>${item[1]}</td>
-                <td>${item[0].discount>0?item[0].discount+"%":"N/A"}</td>
+                <td>${item[0].discount > 0 ? item[0].discount + "%" : "N/A"}</td>
                 <td>${item[0].price}</td>
                 <td>${item[2]}</td>
               </tr>  
@@ -1390,36 +1412,36 @@ function getOrderItem(order){
 
 
 
-function getManagementBody(){
-    document.getElementById("pos").style="display:none";
-    document.getElementById("txtSearch").style="display:none";
-    document.getElementById("btnSear").style="display:none";
+function getManagementBody() {
+    document.getElementById("pos").style = "display:none";
+    document.getElementById("txtSearch").style = "display:none";
+    document.getElementById("btnSear").style = "display:none";
 
 
-    document.getElementById("itemName").innerHTML="";
-    document.getElementById("txtItemCode").value="";
-    document.getElementById("setItemQty").value=0;
-    document.getElementById("setItemPrice").value=0;
-    document.getElementById("setItemDiscount").value=0;
-    document.getElementById("itemEXEDate").value=null;
-    
-    
+    document.getElementById("itemName").innerHTML = "";
+    document.getElementById("txtItemCode").value = "";
+    document.getElementById("setItemQty").value = 0;
+    document.getElementById("setItemPrice").value = 0;
+    document.getElementById("setItemDiscount").value = 0;
+    document.getElementById("itemEXEDate").value = null;
 
-    document.getElementById("management").style="display:block";
+
+
+    document.getElementById("management").style = "display:block";
     document.getElementById("content").innerHTML = "";
-    let body="";
+    let body = "";
 
-    menu.catagory.forEach(items=>{
-        items.items.forEach(item=>{
-            item.item.forEach(item=>{
-                body+=  `
+    menu.catagory.forEach(items => {
+        items.items.forEach(item => {
+            item.item.forEach(item => {
+                body += `
                     <tr>
                 <td>${item.code}</td>
                 <td>${item.name}</td>
                 <td>${item.exeDate.toLocaleDateString('en-CA')}</td>
                 
                 <td>${item.avalable}</td>
-                <td>${item.discount>0?item.discount+"%":"N/A"}</td>
+                <td>${item.discount > 0 ? item.discount + "%" : "N/A"}</td>
                 <td>${item.price}</td>
               </tr>
                 
@@ -1428,7 +1450,7 @@ function getManagementBody(){
         });
     });
 
-    document.getElementById("content").innerHTML=`
+    document.getElementById("content").innerHTML = `
        <br><br><br><br>
 
         <div class="container">
@@ -1456,46 +1478,46 @@ function getManagementBody(){
 }
 
 
-function getItemDetails(){
-    let id=document.getElementById("txtItemCode").value;
+function getItemDetails() {
+    let id = document.getElementById("txtItemCode").value;
 
-    menu.catagory.forEach(items=>{
-        items.items.forEach(item=>{
-            item.item.forEach(item=>{
-                
+    menu.catagory.forEach(items => {
+        items.items.forEach(item => {
+            item.item.forEach(item => {
 
-                if(item.code.toLowerCase()===(id.toLowerCase())){
-                    document.getElementById("itemName").innerHTML=item.name;
-                    document.getElementById("setItemQty").value=item.avalable;
-                    document.getElementById("setItemPrice").value=item.price;
-                    document.getElementById("setItemDiscount").value=item.discount;
-                    document.getElementById("itemEXEDate").value=item.exeDate.toISOString().split('T')[0];
+
+                if (item.code.toLowerCase() === (id.toLowerCase())) {
+                    document.getElementById("itemName").innerHTML = item.name;
+                    document.getElementById("setItemQty").value = item.avalable;
+                    document.getElementById("setItemPrice").value = item.price;
+                    document.getElementById("setItemDiscount").value = item.discount;
+                    document.getElementById("itemEXEDate").value = item.exeDate.toISOString().split('T')[0];
                 }
-                
+
             });
         });
     });
-    
+
 }
 
 
-function updateItem(){
-    let id=document.getElementById("txtItemCode").value;
+function updateItem() {
+    let id = document.getElementById("txtItemCode").value;
 
 
-    menu.catagory.forEach(items=>{
-        items.items.forEach(item=>{
-            item.item.forEach(item=>{
-                
+    menu.catagory.forEach(items => {
+        items.items.forEach(item => {
+            item.item.forEach(item => {
 
-                if(item.code.toLowerCase()===(id.toLowerCase())){
-                    
-                    item.avalable=document.getElementById("setItemQty").value;
-                    item.price=document.getElementById("setItemPrice").value;
-                    item.discount=document.getElementById("setItemDiscount").value;
-                    item.exeDate=new Date(document.getElementById("itemEXEDate").value);
+
+                if (item.code.toLowerCase() === (id.toLowerCase())) {
+
+                    item.avalable = document.getElementById("setItemQty").value;
+                    item.price = document.getElementById("setItemPrice").value;
+                    item.discount = document.getElementById("setItemDiscount").value;
+                    item.exeDate = new Date(document.getElementById("itemEXEDate").value);
                 }
-                
+
             });
         });
     });
