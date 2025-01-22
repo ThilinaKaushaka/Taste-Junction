@@ -1,6 +1,5 @@
 
 let menu = {
-
     "catagory": [
         {
             "name": "Burgers",
