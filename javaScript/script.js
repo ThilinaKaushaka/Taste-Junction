@@ -635,6 +635,25 @@ let menu = {
 }
 
 
+start();
+
+
+function start(){
+    document.getElementById("pos").style = "display:block";
+    document.getElementById("txtSearch").style = "display:bloack";
+    document.getElementById("btnSear").style = "display:block";
+
+    document.getElementById("management").style = "display:none";
+}
+
+
+
+
+
+
+
+
+
 function printAllMenu(Lc) {
 
     if (!Lc) {
@@ -754,7 +773,7 @@ function printBurgers(Lc) {
     body = `
             <div class="burger" data-aos="fade-up"
      data-aos-duration="3000">
-                <h1 class="burger fw-bold text-white">
+                <h1 class="burger fw-bold  con">
                     <center>Burgers</center>
                 </h1>
                 <br><br>
@@ -780,7 +799,7 @@ function printSubmarines(Lc) {
     let body = "";
     body = `<div class="submarines" data-aos="fade-up"
      data-aos-duration="3000">
-                <h1 class="burger fw-bold text-white">
+                <h1 class="burger fw-bold  con">
                     <center>Submarines</center>
                 </h1>
                  <br><br>
@@ -809,7 +828,7 @@ function printFries(Lc) {
     body = `
                 <div class="fries" data-aos="fade-up"
      data-aos-duration="3000">
-                    <h1 class="burger fw-bold text-white">
+                    <h1 class="burger fw-bold con ">
                         <center>Fries</center>
                     </h1>
                     <br><br>
@@ -839,7 +858,7 @@ function printPasta(Lc) {
     body = `
                 <div class="pasta" data-aos="fade-up"
      data-aos-duration="3000">
-                    <h1 class="burger fw-bold text-white">
+                    <h1 class="burger fw-bold con">
                         <center>Pasta</center>
                     </h1>
                     <br><br>
@@ -867,7 +886,7 @@ function printChicken(Lc) {
     body = `
                 <div class="chicken" data-aos="fade-up"
      data-aos-duration="3000">
-                    <h1 class="chicken fw-bold text-white">
+                    <h1 class="chicken fw-bold con">
                         <center>Chicken</center>
                     </h1>
                     <br><br>
@@ -896,7 +915,7 @@ function printBeverages(Lc) {
     body = `
                 <div class="beverages" data-aos="fade-up"
      data-aos-duration="3000">
-                    <h1 class="beverages fw-bold text-white">
+                    <h1 class="beverages fw-bold con">
                         <center>Beverages</center>
                     </h1>
                     <br><br>
@@ -1055,7 +1074,8 @@ function search() {
 
 
 
-    let body = "";
+    if(listArray.length!=0){
+        let body = "";
 
     listArray.forEach(item => {
         body += getBody(item);
@@ -1066,6 +1086,7 @@ function search() {
     document.getElementById("content").innerHTML = `<br><br><br><br> <div class="row beverages-row" style="margin-left: 2%; margin-right: 2%; " id="beverages-row">
                         ${body}
                     </div>` ;
+    }
 
 
 }
@@ -1189,6 +1210,32 @@ function placeOrder() {
         document.getElementById("itmTotal").innerHTML = "";
         document.getElementById("itmDiscount").innerHTML = "";
         document.getElementById("itmCode").innerHTML = "";
+
+
+        orders.forEach(or => {
+
+            menu.catagory.forEach(catagory => {
+                catagory.items.forEach(item => {
+                    item.item.forEach(itemx => {
+                        if (or[0].code == itemx.code) {
+                            itemx.avalable -= or[1];
+                            console.log(itemx.avalable);
+    
+    
+                        }
+    
+                    });
+                });
+            });
+    
+        });
+    
+    
+    
+        orders = [];
+        printAllMenu();
+
+
     } else {
         if (document.getElementById("txtTPNO").value == "" && document.getElementById("txtName").value == "") {
             Swal.fire({
@@ -1197,14 +1244,7 @@ function placeOrder() {
                 text: "",
 
             });
-            document.getElementById("txtTPNO").value = "";
-            document.getElementById("txtName").value = "";
-            document.getElementById("subTotal").innerHTML = "";
-
-            document.getElementById("itmName").innerHTML = "";
-            document.getElementById("itmTotal").innerHTML = "";
-            document.getElementById("itmDiscount").innerHTML = "";
-            document.getElementById("itmCode").innerHTML = "";
+            
         } else if (document.getElementById("txtTPNO").value == "") {
             Swal.fire({
                 icon: "error",
@@ -1212,14 +1252,7 @@ function placeOrder() {
                 text: "",
 
             });
-            document.getElementById("txtTPNO").value = "";
-            document.getElementById("txtName").value = "";
-            document.getElementById("subTotal").innerHTML = "";
-
-            document.getElementById("itmName").innerHTML = "";
-            document.getElementById("itmTotal").innerHTML = "";
-            document.getElementById("itmDiscount").innerHTML = "";
-            document.getElementById("itmCode").innerHTML = "";
+            
         } else if (document.getElementById("txtName").value == "") {
             Swal.fire({
                 icon: "error",
@@ -1227,47 +1260,21 @@ function placeOrder() {
                 text: "",
 
             });
-            document.getElementById("txtTPNO").value = "";
-            document.getElementById("txtName").value = "";
-            document.getElementById("subTotal").innerHTML = "";
-
-            document.getElementById("itmName").innerHTML = "";
-            document.getElementById("itmTotal").innerHTML = "";
-            document.getElementById("itmDiscount").innerHTML = "";
-            document.getElementById("itmCode").innerHTML = "";
+            
         }
     }
 
 
-    orders.forEach(or => {
-
-        menu.catagory.forEach(catagory => {
-            catagory.items.forEach(item => {
-                item.item.forEach(itemx => {
-                    if (or[0].code == itemx.code) {
-                        itemx.avalable -= or[1];
-                        console.log(itemx.avalable);
-
-
-                    }
-
-                });
-            });
-        });
-
-    });
-
-
-
-    orders = [];
-    printAllMenu();
+    
 
 }
 
 
 function valudNameNumberAndTotal() {
-
     return document.getElementById("txtTPNO").value.charAt(0) == "0" && document.getElementById("txtTPNO").value.length == 10 && document.getElementById("txtName").value != "" && getTotal() >> 0;
+    
+
+       
 }
 
 
