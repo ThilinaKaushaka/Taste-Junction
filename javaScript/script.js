@@ -635,18 +635,6 @@ let menu = {
 }
 
 
-
-
-
-
-
-printAllMenu();
-
-
-
-
-
-
 function printAllMenu(Lc) {
 
     if (!Lc) {
